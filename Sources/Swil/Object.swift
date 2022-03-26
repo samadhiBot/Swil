@@ -31,7 +31,7 @@ public struct Object {
     public let value: Int?
     public let vType: Attribute?
 
-    init(
+    public init(
         name: String,
         action: Function? = nil,
         adjectives: [String] = [],

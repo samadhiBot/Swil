@@ -30,7 +30,7 @@ public struct Room {
 
     private var _parent: [Room]
 
-    init(
+    public init(
         name: String,
         action: Function? = nil,
         adjectives: [String] = [],
